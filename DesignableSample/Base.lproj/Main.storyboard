@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="M6O-H7-3Lc">
-                                <rect key="frame" x="0.0" y="126.5" width="375" height="414.5"/>
+                                <rect key="frame" x="0.0" y="85.5" width="375" height="496"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R3J-Oq-uUE" customClass="HogeView" customModule="DesignableSample" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
@@ -30,7 +30,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z5O-jO-diT" customClass="HogeView" customModule="DesignableSample" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="211.5" width="375" height="203"/>
+                                        <rect key="frame" x="0.0" y="211.5" width="375" height="284.5"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="string" keyPath="title">
                                                 <string key="value">長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル</string>
@@ -42,7 +42,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="M6O-H7-3Lc" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" priority="999" id="P2e-aX-T1K"/>
+                            <constraint firstItem="M6O-H7-3Lc" firstAttribute="width" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="width" id="P2e-aX-T1K"/>
                             <constraint firstItem="M6O-H7-3Lc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Yhu-Hb-Njt"/>
                             <constraint firstItem="M6O-H7-3Lc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dys-Hq-6kl"/>
                         </constraints>
