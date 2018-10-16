@@ -8,13 +8,17 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
+
+    @IBOutlet private weak var stackView: UIStackView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+
+        let hogeView = HogeView()
+        hogeView.title = "コードで作った"
+        stackView.addArrangedSubview(hogeView)
     }
-
-
 }
 

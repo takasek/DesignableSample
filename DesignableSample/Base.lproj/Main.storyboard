@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="M6O-H7-3Lc">
-                                <rect key="frame" x="0.0" y="85.5" width="375" height="496"/>
+                                <rect key="frame" x="0.0" y="126.5" width="375" height="414.5"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R3J-Oq-uUE" customClass="HogeView" customModule="DesignableSample" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
@@ -30,7 +30,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z5O-jO-diT" customClass="HogeView" customModule="DesignableSample" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="211.5" width="375" height="284.5"/>
+                                        <rect key="frame" x="0.0" y="211.5" width="375" height="203"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="string" keyPath="title">
                                                 <string key="value">長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル</string>
@@ -48,9 +48,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="stackView" destination="M6O-H7-3Lc" id="cpj-6r-VBO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-2.3999999999999999" y="19.340329835082461"/>
         </scene>
     </scenes>
 </document>
