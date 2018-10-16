@@ -17,20 +17,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="M6O-H7-3Lc">
-                                <rect key="frame" x="0.0" y="127" width="375" height="413"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="M6O-H7-3Lc">
+                                <rect key="frame" x="0.0" y="85.5" width="375" height="496"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R3J-Oq-uUE" customClass="HogeView" customModule="DesignableSample" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qs2-95-S93" customClass="HogeView" customModule="DesignableSample" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="105" width="375" height="100"/>
+                                        <rect key="frame" x="0.0" y="105" width="375" height="101.5"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="string" keyPath="title" value="👆titleを入れないとNibの設定優先"/>
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z5O-jO-diT" customClass="HogeView" customModule="DesignableSample" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="210" width="375" height="203"/>
+                                        <rect key="frame" x="0.0" y="211.5" width="375" height="284.5"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="string" keyPath="title">
                                                 <string key="value">長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル</string>

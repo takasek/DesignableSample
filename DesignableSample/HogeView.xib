@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HogeView" customModule="DesignableSample" customModuleProvider="target">
             <connections>
+                <outlet property="additionalInfoLabel" destination="jy6-lA-O2L" id="Zdx-D8-kdf"/>
                 <outlet property="titleLabel" destination="DbF-cx-uWb" id="W9T-wM-vir"/>
             </connections>
         </placeholder>
@@ -22,16 +23,25 @@
                 <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Rs8-th-bPV">
                     <rect key="frame" x="0.0" y="0.0" width="300" height="100"/>
                     <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jy6-lA-O2L">
+                            <rect key="frame" x="0.0" y="41.5" width="100" height="17"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="EeC-GV-pCU"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="hV6-Q4-pYV">
-                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                            <rect key="frame" x="100" y="0.0" width="20" height="100"/>
                             <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="100" id="7pZ-ar-3yQ"/>
-                                <constraint firstAttribute="width" constant="100" id="TDC-r0-lmc"/>
+                                <constraint firstAttribute="width" constant="20" id="TDC-r0-lmc"/>
                             </constraints>
                         </imageView>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="1000" text="title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DbF-cx-uWb">
-                            <rect key="frame" x="100" y="40" width="200" height="20.5"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="999" text="title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DbF-cx-uWb">
+                            <rect key="frame" x="120" y="40" width="180" height="20.5"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
