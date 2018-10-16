@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="M6O-H7-3Lc">
-                                <rect key="frame" x="0.0" y="-6" width="375" height="679"/>
+                                <rect key="frame" x="0.0" y="116" width="375" height="435.5"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R3J-Oq-uUE" customClass="HogeView" customModule="DesignableSample" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="100.5"/>
@@ -30,7 +30,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z5O-jO-diT" customClass="HogeView" customModule="DesignableSample" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="212" width="375" height="467"/>
+                                        <rect key="frame" x="0.0" y="212" width="375" height="223.5"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="string" keyPath="title">
                                                 <string key="value">長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル長い長いタイトル</string>
