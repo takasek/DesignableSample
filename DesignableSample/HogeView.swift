@@ -60,7 +60,7 @@ extension UIView {
 
     override func awakeAfter(using aDecoder: NSCoder) -> Any? {
         events.append("awakeAfter")
-        return self
+        return super.awakeAfter(using: aDecoder)
     }
 
     override func prepareForInterfaceBuilder() {
